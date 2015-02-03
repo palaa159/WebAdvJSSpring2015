@@ -1,54 +1,7 @@
-### Web Advanced: JavaScript Spring 2015
-
-	PGTE 5505 – Section A (Thursday 7:00pm - 9:40pm)
-  Classroom: E 6 16th St. room 1202
-	Parsons The New School for Design
-	School of Art, Media and Technology
-
-**Instructor: Apon Palanuwech** ([palaa159@newschool.edu](mailto:palaa159@newschool.edu))
-
-**Off-class Support (by appointment): Gabriel Gianordoli** ([giang063@newschool.edu](mailto:zouz372@newschool.edu))
-
-**Period: 15 Weeks**
-
----
-
-#### Course Description:
-Over the the past 10 years, the internet is a huge birthplace for applications–from online services to social media channels, useless to artsy. Among influences that catalyze and trigger the possibility is JavaScript, a young powerful programming language for web and beyond. This course serves as a gateway to modern JavaScript, delving into it simplicity and complexity.  The class will together investigate both client-side and server-side (Node.js) programming as a crucial part of design process of making lively data-driven applications that live in different platforms. By learning these, students will be able to employ the knowledge to create self-initiated projects, or at least having a better understanding of how data is handled.  Students will incorporate visual design, user experience design, interaction design and programming to bring idea to life. The outcome of the course focuses on practical experience, students should be able to design, build and deploy JavaScript applications. They should also be able to handpick different components and work stacks or frameworks that will quicken a process of code implementation. Web Advanced JavaScript aims to produce creative front-end developers, technologists, artists and entrepreneurs with adequate understanding in web development.
-
-#### Course Prerequisites/Dependencies:
-PGTE 5505 is open to all graduate-level students in the School of  Art, Media & Technology, otherwise by permission. The course prefers students with web design and/or coding background and is ideal for students who already enrolled lower-level web classes and/or Bootcamp.
-
-#### Overview:
-Welcome to Web Advanced: JavaScript. In this class I will show you the state of the arts of the internet. We will dive deep into the core communication of the web and the colossal internet using JavaScript as our vessel. Always keep in mind this is an advanced class, that being said you must have at least intermediate web coding skills, and, but not limited to, bash scripting, operating raspberry pi and physical computing, C++, python, mysql, or ruby. You'll be utilising heavily of logical thinking, user testing, (almost) free cloud services, your talent and creativity – bring out whatever you have to archieve high quality projects.
-	
-The class is geared towards creating practical web application with emphasis on bridging server-side and client-side applications, but as well is open to all sorts of poetic and art oriented.Class graduates are expected to be able to think, ideate, design, select the optimum stack and architecture, and execute projects professionally. 
-
-The class starts with iterating basic JS statements, demystifying data-types, class, built-in functions and nuances among other interpretive programming languages. We will learn how to write proper JS that allows the code to be maintainable, readable and efficient.
-
-By the nature of design/tech class, syllabus modification is normal later in the semester. Please note that this syllabus is being treated as guideline. Nothing is set in stone.
-
-#### Required tools:
-  * Google Chrome v32+ or s Chrome Canary (We will not use other internet browsers unless needed).
-  * Sublime Text 2 with package manager installed. Refer to: https://sublime.wbond.net/installation#st2
-  * Prepros, a nice, free preprocessing. Refer to: http://alphapixels.com/prepros/
-  * Node.js environment. Refer to: http://nodejs.org/
-  * Terminal
-
-#### Suggested readings:
-***Note that these readings are not absolutely required. The more you read, a better brain you have. List ordered in progressive level.***
-
-  * JavaScript for Cats | http://jsforcats.com/
-  * Eloquent JavaScript | http://eloquentjavascript.net/
-  * JavaScript: the Good Parts | just google for it
-  * Programming JavaScript Applications | http://chimera.labs.oreilly.com/books/1234000000262/index.html
-  * AngularJS in 50 examples | https://www.youtube.com/watch?v=TRrL5j3MIvo
-  * JS Patterns | http://shichuan.github.io/javascript-patterns/
-  * Another JS Design Patterns | http://it-ebooks.info/book/724/
-  * Delivering Goods | https://www.youtube.com/watch?v=R8W_6xWphtw
-
-#### Resources: (Libraries, Frameworks, etc, etc)
-  * [How do I write .md (Markdown) document](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+### Web Advanced: JavaScript Spring 2015	PGTE 5505 – Section A (Thursday 7:00pm - 9:40pm)	Classroom: E 6 16th St. room 1202 Parsons The New School for Design School of Art, Media	and Technology	Instructor: Apon Palanuwech (palaa159@newschool.edu)	Off-class Support (by appointment): Gabriel Gianordoli (giang063@newschool.edu)	Period: 15 Weeks
+---#### Course Description:Over the the past 10 years, the internet is a huge birthplace for applications–from onlineservices to social media channels, useless to artsy. Among influences that catalyze and triggerthe possibility is JavaScript, a young powerful programming language for web and beyond. Thiscourse serves as a gateway to modern JavaScript, delving into it simplicity and complexity. Theclass will together investigate both client-side and server-side (Node.js) programming as acrucial part of design process of making lively data-driven applications that live in differentplatforms. By learning these, students will be able to employ the knowledge to create selfinitiatedprojects, or at least having a better understanding of how data is handled. Students willincorporate visual design, user experience design, interaction design and programming to bringidea to life. The outcome of the course focuses on practical experience, students should be ableto design, build and deploy JavaScript applications. They should also be able to handpickdifferent components and work stacks or frameworks that will quicken a process of codeimplementation. Web Advanced JavaScript aims to produce creative front-end developers,technologists, artists and entrepreneurs with adequate understanding in web development.#### Course Prerequisites/Dependencies:PGTE 5505 is open to all graduate-level students in the School of Art, Media & Technology,otherwise by permission. The course prefers students with web design and/or codingbackground and is ideal for students who already enrolled lower-level web classes and/orBootcamp.####Overview:Welcome to Web Advanced: JavaScript. In this class I will show you the state of the arts of the internet. We will dive deep into the core communication of the web and the colossal internet using JavaScript as our vessel. Always keep in mind this is an advanced class, that being saidyou must have at least intermediate web coding skills, and, but not limited to, bash scripting,operating raspberry pi and physical computing, C++, python, mysql, or ruby. You'll be utilisingheavily of logical thinking, user testing, (almost) free cloud services, your talent and creativity –bring out whatever you have to archieve high quality projects.The class is geared towards creating practical web application with emphasis on bridgingserver-side and client-side applications, but as well is open to all sorts of poetic and artoriented.Class graduates are expected to be able to think, ideate, design, select the optimumstack and architecture, and execute projects professionally.The class starts with iterating basic JS statements, demystifying data-types, class, built-infunctions and nuances among other interpretive programming languages. We will learn how towrite proper JS that allows the code to be maintainable, readable and efficient.By the nature of design/tech class, syllabus modification is normal later in the semester. Pleasenote that this syllabus is being treated as guideline. Nothing is set in stone.####Required tools:* Google Chrome v32+ or s Chrome Canary (We will not use other internet browsers unless* needed).* Sublime Text 2 with package manager installed. Refer to: https://sublime.wbond.net/installation#st2* Prepros, a nice, free preprocessing. Refer to: http://alphapixels.com/prepros/* Node.js environment. Refer to: http://nodejs.org/* Terminal
+####Suggested readings:***Note that these readings are not absolutely required. The more you read, a better brainyou have. List ordered in progressive level.***
+  * [How do I write .md (Markdown) document](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   * [jQuery, the most popular JS library yet?](http://jquery.com)
   * [Zepto, a lightweight jQuery](http://zeptojs.com/)
   * [You might not need jQuery](http://youmightnotneedjquery.com/)
@@ -70,43 +23,28 @@ By the nature of design/tech class, syllabus modification is normal later in the
   * [Node.js](http://nodejs.org)
   * [Parse](http://parse.com)
   * [MongoDB](http://www.mongodb.org/)
-  * [Bento](http://www.bentobox.io/)
-
-#### Useful Node.js Modules
- * Express Web Framework
- * Socket.io
- * Phantom-node
- * node-mailer
- * node-twitter
- * Passport.js
- * Async
- * Kaiseki
- * Graphicsmagick
- * node-OpenCV
- * node-canvas
-
-#### Course Outlines:
-
-|Week|Topic|Prep|Assignment(s)|Remark(s)|
+  * [Bento](http://www.bentobox.io/)* [Github Cheat sheet](https://github.com/tiimgreen/github-cheat-sheet)* [TweenMax Animation engine](https://github.com/greensock/GreenSock-JS)
+####Useful Node.js Modules
+* Express Web Framework* Socket.io* Phantom-node* node-mailer* node-twitter* Passport.js* Async* Kaiseki* Graphicsmagick* node-OpenCV* node-canvas
+####Course Outlines:
+|Week|Topic|Prep|Assignment(s)|Remark(s)|
 |---|---|---|---|---|
-|01.29|Tools of the trade and kindergarten JS: statements, expressions, data-types and manipulations, DOM interaction, Class vs. Object vs. Instance, Closures, return, patterns, built-in APIs, repeitions, loops, operations, OOP, etc, etc. | Sublime Text 2, Prepros, GitHub, Google Chrome | Build something similiar to: [wtf](http://whatthefuckismywearablestrategy.com/) or create your own particle system||
-|02.05|Elementary JS: Events, client-side external APIs, in-depth DOM interaction, File setup guildlines, Work environment, preprocessing, live-reloading.|Prepros| Create a new object with behaviors. ||
-|02.12|Introducing concept of MVC (Model-View-Controller) and the power of single-page application. Write a tracking app together in class.|MVC framework|Come up with your own "Tracking" Application using MVC framework.||
-|02.19|MVC Cont. tracking app. (with LocalStorage)||||
-|02.26|Introduce Angular.js||||
-|03.05|Midterm Presentation||Students present final outcome.|
-|03.12|Start fresh with Node.js, basic built-in modules, scraping techniques. In class workshop: Scraping Google Trends, build our own dataset. Introduce Cron job.||Plan to collect your own data from online sources.||
-|03.19|Introduce Parse database served as online storage, write APIs, perform CRUD.|Parse|||
-|03.26|Node.js and social media APIs||||
-|04.02|Node.js and socket.io||||
-|04.09|Node.js and socket.io (Cont.)||||
-|04.16|Porting application to mobile with Phonegap||||
-|04.23|Final Project Workshop||||
-|04.30|Final Project Workshop||||
-|05.07|Final Project Presentation.|Invite guest critiques|||
-|05.14|Final Project Presentation.|Invite guest critiques|Proper slide presentation format||
-
-#### Final Grade Calculation: 
+|01.29|Course overview. Node.js Basics. http, util, fs, request, sync, async, basic API connection and json.| Sublime Text 2, GitHub, Google Chrome|Review JS: [Basic](http://gitbookio.gitbooks.io/javascript/) and [AirBnB Style Guideline](https://github.com/airbnb/javascript) and [JS Patterns](http://shichuan.github.io/javascript-patterns).||
+|02.05|Node.js + RESTful API with Express framework. Create a simple API.|Express, jQuery| Create a simple web server and API server.||
+|02.12|Setup tools of the trade. Intro to AWS EC2 – install Node.js, Nodemon, Forever, Pm2, Samba. Basic Unix commands|AWS EC2|Rebuilding EC2 3 times or until you're familiar with. From last week, create a web interface that query data from your friend's API.|Apon is traveling this week.|
+|02.19|Node.js + RESTful API with Express framework. + Firebase|Firebase|Record data from external API on Firebase and create Restful API.||
+|02.26|Building Single Page Web App Part 1|Angular|TBD||
+|03.05|Building Single Page Web App Part 2|Angular|TBD|
+|03.12|Social Media API Facebook|Facebook API|TBD||
+|03.19|Midterm Presentation|TBD|||
+|03.26|Spring Break||||
+|04.02|Node.js and socket.io Part 1|TBD|||
+|04.09|Node.js and socket.io Part 2|TBD|||
+|04.16|Ionic.js, A framework for Native app Part 1|TBD|||
+|04.23|Ionic.js, A framework for Native app Part 2|TBD|||
+|04.30|Final Project Workshop|TBD|||
+|05.07|Final Project Workshop|TBD|||
+|05.14|Final Project Presentation.|Invite guest critiques|Proper slide presentation format||#### Final Grade Calculation: 
   * Participation/Attendance 20%
   * Mini Assignments(Total) 30%
   * Midterm Project 25%
