@@ -46,7 +46,6 @@ By the nature of design/tech class, syllabus modification is normal later in the
   * JS Patterns | http://shichuan.github.io/javascript-patterns/
   * Another JS Design Patterns | http://it-ebooks.info/book/724/
   * Delivering Goods | https://www.youtube.com/watch?v=R8W_6xWphtw
-  * https://developers.google.com/web/fundamentals/look-and-feel/animations/css-vs-javascript
 
 #### Resources: (Libraries, Frameworks, etc, etc)
   * [How do I write .md (Markdown) document](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
@@ -72,8 +71,6 @@ By the nature of design/tech class, syllabus modification is normal later in the
   * [Parse](http://parse.com)
   * [MongoDB](http://www.mongodb.org/)
   * [Bento](http://www.bentobox.io/)
-  * [Github Cheat sheet](https://github.com/palaa159/github-cheat-sheet)
-  * [TweenMax Animation engine](http://greensock.com/tweenmax)
 
 #### Useful Node.js Modules
  * Express Web Framework
@@ -92,21 +89,21 @@ By the nature of design/tech class, syllabus modification is normal later in the
 
 |Week|Topic|Prep|Assignment(s)|Remark(s)|
 |---|---|---|---|---|
-|01.29|Course overview. Node.js Basics. http, util, fs, request, sync, async, basic API connection and json.||Review JS: [Basic](http://gitbookio.gitbooks.io/javascript/) and [AirBnB Style Guideline](https://github.com/airbnb/javascript) and [JS Patterns](http://shichuan.github.io/javascript-patterns/).|
-|02.12|Node.js + RESTful API with Express framework.||Create a simple API.|
-|02.05|Setup tools of the trade. Intro to AWS EC2 – install Node.js, Nodemon, Forever, Pm2, Samba. Basic Unix commands||Rebuilding EC2 3 times or until you're familiar with. From last week, create a web interface that query data from your friend's API.|Apon is traveling this week.|
-|02.19|Node.js + RESTful API with Express framework. Part 2: [Firebase](http://firebase.com) ||Record data from external API on Firebase and create Restful API.||
-|02.26|Building Single Page Web App Part 1|Angular|TBD||
-|03.05|Building Single Page Web App Part 2|Angular|TBD|
-|03.12|Social Media API|Facebook API|TBD||
-|03.19|Midterm Presentation||TBD||
-|03.26|Spring Break||||
-|04.02|Node.js and socket.io Part 1|Socket.io|TBD||
-|04.09|Node.js and socket.io Part 2|Socket.io|TBD||
-|04.16|Ionic.js, A framework for Native app Part 1|Cordova + IonicJS|TBD||
-|04.23|Ionic.js, A framework for Native app Part 2|Cordova + IonicJS|TBD||
-|04.30|Final Project Workshop||TBD||
-|05.07|Final Project Workshop||TBD||
+|01.29|Tools of the trade and kindergarten JS: statements, expressions, data-types and manipulations, DOM interaction, Class vs. Object vs. Instance, Closures, return, patterns, built-in APIs, repeitions, loops, operations, OOP, etc, etc. | Sublime Text 2, Prepros, GitHub, Google Chrome | Build something similiar to: [wtf](http://whatthefuckismywearablestrategy.com/) or create your own particle system||
+|02.05|Elementary JS: Events, client-side external APIs, in-depth DOM interaction, File setup guildlines, Work environment, preprocessing, live-reloading.|Prepros| Create a new object with behaviors. ||
+|02.12|Introducing concept of MVC (Model-View-Controller) and the power of single-page application. Write a tracking app together in class.|MVC framework|Come up with your own "Tracking" Application using MVC framework.||
+|02.19|MVC Cont. tracking app. (with LocalStorage)||||
+|02.26|Introduce Angular.js||||
+|03.05|Midterm Presentation||Students present final outcome.|
+|03.12|Start fresh with Node.js, basic built-in modules, scraping techniques. In class workshop: Scraping Google Trends, build our own dataset. Introduce Cron job.||Plan to collect your own data from online sources.||
+|03.19|Introduce Parse database served as online storage, write APIs, perform CRUD.|Parse|||
+|03.26|Node.js and social media APIs||||
+|04.02|Node.js and socket.io||||
+|04.09|Node.js and socket.io (Cont.)||||
+|04.16|Porting application to mobile with Phonegap||||
+|04.23|Final Project Workshop||||
+|04.30|Final Project Workshop||||
+|05.07|Final Project Presentation.|Invite guest critiques|||
 |05.14|Final Project Presentation.|Invite guest critiques|Proper slide presentation format||
 
 #### Final Grade Calculation: 
