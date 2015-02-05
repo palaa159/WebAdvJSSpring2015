@@ -1,5 +1,6 @@
 – Get everyone setup on Dropbox
-– Proper introuction of Node.js
+
+– Proper introduction of Node.js
 – npm init
 – Functions
 	– scope
@@ -7,7 +8,8 @@
 	– synchronous functions
 	– asynchronous functions + callback function
 	– setTimeout vs. setInterval
-– app init
+– npm init
+– Show google trend
 – Express Server
 – fs.writeFile
 – fs.readFile
