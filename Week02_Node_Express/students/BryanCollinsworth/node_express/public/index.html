@@ -1,0 +1,106 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="appStyle.css" type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700|Orbitron:400,500,700,900|Questrial|Dosis:200,300,400,500,600,700,800|Economica:400,700,400italic,700italic|Armata|Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	This is my awesome note taking app.
+
+	<div id="inputForm">
+	<input type="text" placeholder="Your Name" id="iptName">
+	<input type="text" placeholder="Your Message" id="iptMessage">
+	<button id="btnSubmit">Submit</button>
+</div>
+
+	<div id="resultsDiv">
+	</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script>
+		console.log('it is working');
+
+		$('#btnSubmit').on('click', function(){
+			var valName = $('#iptName').val();
+			var valMessage = $('#iptMessage').val();
+
+			$.ajax({
+				method: 'POST',
+				url: '/message',
+				data: {
+					name: valName,
+					message: valMessage,
+				}, 
+				success: function(fromServer){
+					var resultsDiv = document.getElementById("resultsDiv");
+					var postDiv = document.createElement("div");
+					postDiv.id = "postDiv";
+					var successMessage = document.createElement("h1");
+					successMessage.innerText = "Post received!";
+					
+					postDiv.appendChild(successMessage);
+					resultsDiv.appendChild(postDiv);
+
+
+					console.log(fromServer);
+				}, 
+				error: function(err){
+					console.log(err);
+				}
+			});
+
+			$.ajax({
+				method: 'GET',
+				url: '/message',
+				//data: {
+				//	name: valName,
+				//	message: valMessage,
+				//}, 
+				success: function(fromServer){
+					
+					var postContentDiv = $('<div/>');
+					$(postContentDiv).attr('id', 'postContentDiv');
+					var postMessage = $ ('<p/>');
+					$(postMessage).text("Here's the bullshit you typed:");
+					//$(postMessage).style.fontWeight('bold');
+					$(postContentDiv).append(postMessage);
+
+					$.each(fromServer.data, function(i,value){
+						var postName = $ ('<p/>');
+						postName.text(value.name);
+						var postMessage = $ ('<p/>');
+						postMessage.text(value.message);
+						$(postContentDiv).append(postName);
+						$(postContentDiv).append(postMessage);
+
+					});
+					
+					/*
+					for (var i = 0; i < fromServer.data.length; i++){
+						var postName = $ ('<p/>');
+						postName.text(fromServer.data[i].name);
+						var postMessage = $ ('<p/>');
+						postMessage.text(fromServer.data[i].message);
+						$(postContentDiv).append(postName);
+						$(postContentDiv).append(postMessage);
+						
+					} */
+
+					$('#resultsDiv').append(postContentDiv);
+
+
+					console.log("Get: ");
+					console.log(fromServer);
+					for (var i = 0; i < fromServer.data.length; i++){
+					console.log(fromServer.data[i].message);
+					}
+				}, 
+				error: function(err){
+					console.log(err);
+				}
+			});
+		});
+	</script>
+
+</body>
+</html>

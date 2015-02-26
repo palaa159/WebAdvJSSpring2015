@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    THIS IS MY AWESOME NOTE TAKING APP
+    <input type="text" placeholder="name" id="iptName">
+    <input type="text" placeholder="message" id="iptMessage">
+    <button id= "btnSubmit">Submit</button>
+    <script type = "text/javascript" src="js/jquery.min.js"></script>
+    <script>
+       console.log("It is working");
+       $("#btnSubmit").on("click",function(){
+       	var valName = $("#iptName").val();
+       	var valMessage = $("#iptMessage").val();
+       	$.ajax({
+       		method:"POST",
+       		url:"/message",
+       		data:{
+       			name:valName,
+       			message:valMessage
+       		},success: function(fromServer){
+       			console.log(fromServer);
+       		},error: function(err){
+       			console.log(err);
+       		}       		
+
+       	});
+       });
+</body>
+</html>

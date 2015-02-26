@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+this is totally rad. i have a anote taking app.
+
+
+<input type="text" placeholder="name" id="iptName">
+<input type="text" placeholder="mssg" id="iptmsg">
+<button id="btnSubmit">SUBMIT</button>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script>
+	console.log('working');
+
+	$('#btnSubmit').on('click', function(){
+		var valNAme = $('#iptName').val();
+		var valMsg = $('#iptmsg').val();
+
+		$.ajax({
+			method: 'POST',
+			url: '/message',
+			data: {
+				name: valNAme,
+				message: valMsg
+
+			}, success: function(fromServer){
+				console.log(fromServer);
+			}, error: function(err){
+				console.log(err);
+			}
+
+		});
+
+	});
+
+</script>
+
+</body>
+</html>

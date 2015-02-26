@@ -1,4 +1,4 @@
- Amazon Web Services
+sud Amazon Web Services
 – set up your remote computer with EC2 (Elastic Cloud)
 
 1. Go to http://aws.amazon.com

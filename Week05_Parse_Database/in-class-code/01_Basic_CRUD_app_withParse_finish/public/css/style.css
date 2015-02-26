@@ -1,0 +1,17 @@
+/* your style begins here */
+body {
+	background: #cfd3c9;
+}
+
+footer {
+	position: fixed;
+	bottom: 20px;
+	left: 0px;
+	z-index: 9;
+	width: 100%;
+	text-align: center;
+}
+
+.page {
+	padding: 20px;
+}

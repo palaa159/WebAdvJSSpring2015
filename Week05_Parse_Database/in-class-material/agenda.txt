@@ -1,0 +1,5 @@
+Agenda Week05
+
+1. Introducing Parse
+2. Finish Note-taking app with Parse
+3. Upload and run application on EC2

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NOTEZ WITH NODE</title>
+</head>
+<body>
+	<h1>LOOK AT THIS I MADE A FUCKING NOTE TAKING APP</h1>
+
+	<input type='text' placeholder='Your Name' id='iptName'>
+	<input type='text' placeholder='Say Something' id='iptMessage'>
+	<button id="btnSubmit">Submit</button>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script>
+		//listener for butoton
+		$('#btnSubmit').on('click', function (){
+			console.log('clicked');
+			var valName = $('#iptName').val();
+			var valMessage = $('#iptMessage').val();
+
+			$.ajax({
+				method: 'POST',
+				url: '/message',
+				data: {
+					name: valName,
+					message: valMessage
+				}, success: function(fromServer){ // call back if success
+					console.log(fromServer);
+				}, error: function(err) { // call back if error
+					console.log(err);
+				}
+			}); // end of ajax
+		}); // end of submit buttom function
+	</script>
+</body>
+</html>

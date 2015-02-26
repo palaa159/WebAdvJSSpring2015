@@ -1,15 +1,9 @@
 /* Your code starts here */
 
-var app = app || {};
+var app = {};
 
-app.main = (function() {
-	var init = function() {
-		// app starts running here
-	};
+app.init = function() {
+	console.log('Your code starts here!');
+};
 
-	return {
-		init: init
-	};
-})();
-
-app.main.init();
+app.init();

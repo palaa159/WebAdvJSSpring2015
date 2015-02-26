@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	YAYAYAYAA
+
+	<input type= "text" placeholder= "Your name" id = "iptName">
+	<input type= "text" placeholder= "Your name" id = "iptMessage">
+	<button id = "btnSubmit">Sumbit</button>
+
+	<script type="text/javascript" src = "js/jquery.min.js"></script>
+	<script> 
+		console.log('it is working?');
+		
+
+		$('#btnSubmit').on('click', function(){
+			var valName = $('#iptName').val();
+			var valMessage = $('#iptMessage').val();
+
+			$.ajax({
+				method: 'POST', 
+				url: '/message'
+				data:{
+					name: valName,
+					message: valMessage
+				}, success: function(fromServer){
+					console.log(fromServer);
+				}, error: function(err){
+					console.log(err);
+				}
+			});
+		});
+
+	</script>
+</body>
+</html>

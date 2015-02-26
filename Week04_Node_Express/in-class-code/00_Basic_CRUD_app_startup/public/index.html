@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Fixed Footer -->
+	<footer>
+		<button id="btnCreate">+ Create a project</button>
+	</footer>
+	<!-- View container where pages are rendered -->
+	<div id="view">
+	</div>
+
+	<!-- Template for Register page -->
+	<script type="text/html" id="tpl_register">
+		<div class="page" id="register">
+			<h2><%= title %></h2>
+			<h4><%= date %></h4>
+			<input id="iptEmailRegister" type="text" placeholder="Enter your email address">
+			<button id="btnRegister">Next</button>
+		</div>
+	</script>
+
+	<!-- Template for Projects page -->
+	<script type="text/html" id="tpl_projects">
+		<div class="page" id="projects">
+			<h5>Logged in as <%= user %> | <button id="btnLogout">Log out</button></h5>
+			<h2>All Projects</h2>
+			<% if(data.length > 0) { %>
+			<% _.each(data, function(item) { %>
+				<li>
+					<span class="item" data-id="<%= item.id %>"><%= item.title %> (<%= item.deadline %>)</span>
+					<button class="btnDelete"> X </button>
+				</li>
+			<% }); %>
+			<% } else { %>
+				<h4>No projects yet. I am so happy for you.</h4>
+			<% } %>
+			
+		</div>
+	</script>
+
+	<!-- Template for Create page -->
+	<script type="text/html" id="tpl_create">
+		<div class="page" id="create">
+			<h2>Create</h2>
+			<input type="text" placeholder="Project Title" id="iptProjectTitle">
+			<br>
+			<input type="text" placeholder="Project Deadline" id="iptProjectDeadline">
+			<br>
+			<button id="btnSubmit">Submit</button>
+		</div>
+	</script>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/underscore-min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

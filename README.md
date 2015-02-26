@@ -95,15 +95,15 @@ you have. List ordered in progressive level.***
 * node-canvas
 
 ####Course Outlines:
-|Week|Topic|Prep|Assignment(s)|Remark(s)|
+|Week|Topic|Prep|Assignment(s)|Extra(s)|
 |---|---|---|---|---|
 |01.29|Course overview. Node.js Basics. http, util, fs, request, sync, async, basic API connection and json.| Sublime Text 2, GitHub, Google Chrome|Review JS: [Basic](http://gitbookio.gitbooks.io/javascript/) and [AirBnB Style Guideline](https://github.com/airbnb/javascript) and [JS Patterns](http://shichuan.github.io/javascript-patterns).||
-|02.05|Node.js + RESTful API with Express framework. Create a simple API.|Express, jQuery| Create a web app that collects and shows data from user input. Record data permanently using `fs` module. Pick your desired content.||
+|02.05|Node.js + RESTful API with Express framework. Create a simple API.|Express, jQuery| Create a web app that collects and shows data from user input. Record data permanently using `fs` module. Pick your desired content.|Feel free to collect data from Raspberry Pi, or any physical computer via [Serial port](https://github.com/voodootikigod/node-serialport) module. |
 |02.12|Setup tools of the trade. Intro to AWS EC2 – install Node.js, Nodemon, Forever, Pm2, Samba. Basic Unix commands|AWS EC2|Rebuilding EC2 3 times or until you're familiar with. From last week, create a web interface that query data from your friend's API.|Apon is traveling this week.|
 |02.19|Node.js + RESTful API with Express framework. + Firebase|Firebase|Record data from external API on Firebase and create Restful API.||
-|02.26|Building Single Page Web App Part 1|Angular|TBD||
+|02.26|Building Single Page Web App Part 1: Setting up Angular, understand modules, controller, built-in directives.|Angular|TBD||
 |03.05|Building Single Page Web App Part 2|Angular|TBD|
-|03.12|Social Media API Facebook|Facebook API|TBD||
+|03.12|Social Media API Facebook. Simple Facebook login/logout authentication.|Facebook API|TBD||
 |03.19|Midterm Presentation|TBD|||
 |03.26|Spring Break||||
 |04.02|Node.js and socket.io Part 1|TBD|||
